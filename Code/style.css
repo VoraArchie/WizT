@@ -113,8 +113,8 @@ body {
 
 #star {
   position: absolute;
-  bottom: 380px;
-  left: 540px;
+  bottom: 330px!important;
+  left: 450px!important;
 }
 
 .descriptionss {
@@ -160,7 +160,7 @@ body {
   display: flex;
   align-items: center;
   gap: 16px;
-  margin-top: 40px!important;
+  margin-top: -200px!important;
   position: absolute;
   bottom: -1px; 
 
@@ -170,14 +170,14 @@ body {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  margin-top: 40px!important;
+  margin-bottom: -40px!important;
 }
 
 .lastpart-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 60px!important;
+  margin-bottom: -50px!important;
 }
 
 #p1 {
@@ -675,7 +675,7 @@ p {
 }
 
 .six {
-  min-height: 152vh;
+  min-height: 168vh;
   background-color: #28293E !important;
   font-family: epilogue;
   margin-top: 100px;
@@ -1199,7 +1199,7 @@ The 0 for the bottom-right and bottom-left ensures they remain square. */
 /* Center the icon vertically */
   top: 50%; 
   /* Move the icon to the right side */
-  right: 537px; 
+  right: 480px!important; 
   transform: translateY(-50%); 
   /* transform: translateY(-50%); moves an element upward by 50% of its own height. */
 
